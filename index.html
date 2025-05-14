@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Emulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🧠 Web CPU Emulator</h1>
+    <div class="container">
+        <div class="editor">
+            <h2>Assembly Code</h2>
+            <textarea id="codeInput" placeholder="MOV A, 0x10&#10;ADD A, 0x05"></textarea>
+            <div class="buttons">
+                <button id="executeBtn">▶️ Execute</button>
+                <button id="resetBtn">🔄 Reset</button>
+            </div>
+        </div>
+        <div class="registers">
+            <h2>Registers</h2>
+            <div id="registersDisplay">
+                <!--js needs to be added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
